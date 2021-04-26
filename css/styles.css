@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+.conte{
+    text-align: center;
+}
+
+ul{
+    text-align: right;
+    flex-direction: column;
+    display: inline;
+}
+.logo{
+    text-align: center;
+}
+
+
