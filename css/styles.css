@@ -4,7 +4,11 @@ h1{
 .conte{
     text-align: center;
 }
-
+.logo{
+    background-size: cover;
+    padding: 20px;
+    margin: 20px;
+}
 ul{
     text-align: right;
     flex-direction: column;
@@ -13,5 +17,77 @@ ul{
 .logo{
     text-align: center;
 }
+body{
+background-image: url(../images/fback.jpg);
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+background-size: cover;
+}
+.landing-page{
+    height: 60%;
 
-
+}
+.image-001{
+    width: 100%;
+    height: 100%;
+}
+.hover{
+    text-align: center;
+    color: white;
+    font-family: 'Gabriela', serif;
+    text-transform: capitalize;
+    -o-text-overflow: clip;
+}
+@media only screen and (min-width: 825px){
+    #overlay,#overlay2,#overlay3,#overlay4{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 20px;
+      padding-top:30%;
+    }
+    #overlay,#overlay2,#overlay3,#overlay4{
+        display: none;
+        color: black;
+        width: 100%;
+        height: 100%;
+        background-color:rgba(255, 255, 255, 0.456);
+        position:absolute;
+        top: 5px;
+        left: 5pxpx;
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 50%;
+      }
+    }
+    .col-md-3 img{
+         width: 400px;
+         margin: 5px; 
+      } 
+    .col-md-3 img{
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .portfolio h2{
+      text-align: center;
+      padding-top:40px;
+      font-family: 'Gabriela', serif;
+    }
+      #portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left:4%;
+      }
+@media only screen and (min-width: 625px){
+    #overlay,#overlay2,#overlay3,#overlay4{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 20px;
+      padding-top:20%; 
+      font-size: 26px;
+    }
+}
