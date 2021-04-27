@@ -37,7 +37,7 @@ background-size: cover;
     color: white;
     font-family: 'Gabriela', serif;
     text-transform: capitalize;
-    -o-text-overflow: clip;
+    font-weight: bold;
 }
 @media only screen and (min-width: 825px){
     #overlay,#overlay2,#overlay3,#overlay4{
@@ -49,7 +49,7 @@ background-size: cover;
     }
     #overlay,#overlay2,#overlay3,#overlay4{
         display: none;
-        color: black;
+        color: blue;
         width: 100%;
         height: 100%;
         background-color:rgba(255, 255, 255, 0.456);
