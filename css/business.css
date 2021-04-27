@@ -1,0 +1,91 @@
+* {
+    margin: 0%;
+    padding: 0px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 70px;
+    padding: 0%;
+}
+
+nav a {
+    color: white;
+    margin-left: 10%;
+    font-size: 20px;
+    
+
+}
+nav a:hover{
+    color: yellow;
+}
+.image{
+    background-image: url(../images/pexels-fauxels-3183186.jpg);
+    background-size: cover;
+    padding-top: 300px;
+}
+.logo{
+    margin-left: -10%;
+}
+#call{
+    font-size: medium;
+    margin-top: 20px;
+    
+
+}
+.line{
+    border-left: 2px solid;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    margin-left: 3px;
+    color: yellow;
+    margin-top: 20px;
+    opacity: 50%;
+}
+#call h4{
+    font-size: medium;
+}
+#mail{
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.back{
+    margin-top: -250px;
+    font-style:oblique;
+    color: white;
+    font-weight:unset;
+    margin-left: 70px;
+    font-size: large;
+}
+.get{
+    text-align: center;
+    margin-left: -500px;
+    margin-top: 50px;
+    font-style: oblique;
+    font-weight: bold;
+}
+#sach{
+    float: right;
+    margin-left: 220px;
+}
+.touch{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+}
+#content{
+    font-family: "Luna";
+}
+#button{
+    background-color: black;
+}
+#button:hover{
+    color: black;
+    background-color: yellow;
+}
+.contact{
+    background-color: #221f1f;
+    margin-left: 300px;
+}
