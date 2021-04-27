@@ -18,7 +18,7 @@ ul{
     text-align: center;
 }
 body{
-background-image: url(../images/fback.jpg);
+background-image: url(../images/first\ back.jpg);
 background-repeat: no-repeat;
 height: 100%;
 width: 100%;
@@ -38,6 +38,7 @@ background-size: cover;
     font-family: 'Gabriela', serif;
     text-transform: capitalize;
     font-weight: bold;
+    padding-top: 30px;
 }
 @media only screen and (min-width: 825px){
     #overlay,#overlay2,#overlay3,#overlay4{
@@ -81,6 +82,18 @@ background-size: cover;
         align-items: center;
         margin-left:4%;
       }
+      .nav{
+         display: flex;
+         margin: 5px;
+         padding-right: 5px;
+         float: right;
+      }
+      #abt,#bra,#bus,#con{
+          margin: 20px;
+          display: grid;
+          padding: 5px;
+        }
+
 @media only screen and (min-width: 625px){
     #overlay,#overlay2,#overlay3,#overlay4{
       width: 100%;
