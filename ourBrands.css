@@ -2,12 +2,6 @@
     display: none;
     cursor: pointer;
 }
-
-.background-image{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url("./images/capwell\ products.jpg");
-    background-position: center;
-
-}
 #title{
     padding-top:7em;
 }
@@ -24,6 +18,45 @@ span:hover{
     color: #DBC250;
     border: 1px solid white;
 }
+.black{
+    border-top: 5px black solid;
+    background-color: yellow;
+    color: black;
+    padding-top: 2em;
+    margin-top: 10px;
+    
 
+
+}
+#submit{
+    background-color: black;
+    color: yellow;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    box-shadow: 1px solid;
+    
+}
+#submit:hover{
+    background-color: yellow;
+    color: black;
+}
+.landing-image{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url("./images/photo-1610548822710-dc1d32b47a70.jpeg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.landing-image h1{
+    padding: 5em 0 0 0;
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
+#contact-us{
+    padding-top: 2em
+}
     
  
