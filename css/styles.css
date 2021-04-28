@@ -4,14 +4,276 @@ h1{
 .conte{
     text-align: center;
 }
-
+.logo{
+    background-size: cover;
+    padding: 20px;
+    margin: 20px;
+}
 ul{
     text-align: right;
     flex-direction: column;
     display: inline;
+    font-size: larger;
+    font-weight: bold;
+}
+.work1{
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+    padding: 30px;
+    m
 }
 .logo{
     text-align: center;
 }
+body{
+background-image: url(../images/first\ back.jpg);
+background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+background-size: cover;
+}
+.landing-page{
+    height: 60%;
+
+}
+.image-001{
+    width: 100%;
+    height: 100%;
+}
+.hover{
+    text-align: center;
+    font-family: 'Gabriela', serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top: 30px;
+}
+@media only screen and (min-width: 825px){
+    #overlay,#overlay2,#overlay3,#overlay4{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 20px;
+      padding-top:30%;
+    }
+    #overlay,#overlay2,#overlay3,#overlay4{
+        display: none;
+        color: blue;
+        width: 100%;
+        height: 100%;
+        background-color:rgba(255, 255, 255, 0.456);
+        position:absolute;
+        top: 5px;
+        left: 5pxpx;
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 50%;
+      }
+    }
+    .col-md-3 img{
+         width: 400px;
+         margin: 5px; 
+      } 
+    .col-md-3 img{
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .portfolio h2{
+      text-align: center;
+      padding-top:40px;
+      font-family: 'Gabriela', serif;
+    }
+      #portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left:4%;
+        border-radius: 10px;
+      }
+      .nav{
+         display: flex;
+         margin: 5px;
+         padding-right: 5px;
+         float: right;
+      }
+      #abt,#bra,#bus,#con{
+          margin: 20px;
+          display: grid;
+          padding: 5px;
+        }
+
+@media only screen and (min-width: 625px){
+    #overlay,#overlay2,#overlay3,#overlay4{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 20px;
+      padding-top:20%; 
+      font-size: 26px;
+    }
+}
+#para{
+    text-align: center;
+    padding: 40px;
+}
+.row{
+    border-radius: 10px;
+}
+h4{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.about{
+    padding: 60px;
+}
+.backabout{
+    background-color: white;
+}
+.layout{
+    text-align: center;
+   height: 50%;
+   width: 50%;
+   border: 2px 2px solid rgba(255, 255, 255, 0.456);
+   margin-left:250px;
+   padding: 70px;
+   color: black;
+   background-color:rgba(255, 255, 255, 0.456);
+
+}
+@media only screen and (min-width: 625px){
+    #overlay,#overlay2,#overlay3,#overlay4{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 20px;
+      padding-top:20%; 
+      font-size: 26px;
+    }
+/* 
+#overlay,#overlay2,#overlay3,#overlay4{
+    display: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.456);
+    position:absolute;
+    top: 20px;
+    left: 35px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50%;
+  }
+    @media only screen and (max-width: 755px){
+        #overlay,#overlay2,#overlay3,#overlay4{
+          width: 100%;
+          height: 100%;
+          top: 20px;
+          left: 16px;
+          padding-top: 20%;
+        }
+    @media only screen and (min-width: 825px){
+        #overlay,#overlay2,#overlay3,#overlay4{
+          width: 100%;
+          height: 100%;
+          top: 20px;
+          left: 20px;
+          padding-top:30%; 
+        }
+        @media only screen and (max-width: 425px){
+          #overlay,#overlay2,#overlay3,#overlay4{
+            width: 100%;
+            height: 100%;
+            top: 20px;
+            left: 16px;
+            padding-top: 20%;
+            font-size: 20px;
 
 
+
+
+          } */
+
+
+.cap{
+    background-image: url(../images/backabout\ us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.we{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.456);
+    height: 60%;
+    width: 50%;
+}
+.do{
+    height: 10%;
+    width: min-content;
+    border-radius: 1000px;
+    min-height: min-content;
+}
+ul{
+    font-weight: bolder;
+    font-display: 20px;
+}
+.what-we-do{
+    display: flex;
+    padding: 30px;
+    
+}
+.our{
+    text-align: center;
+    color: black;
+    font-family: larger;
+}
+.hab{
+    text-align: center;
+}
+.vision{
+    background-color: rgba(255, 255, 255, 0.456);
+    width: 40%;
+    height: 70%;
+    font-size: larger;
+    font-weight: bold;
+}
+.mis{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+.on{
+    text-align: center;
+    /* font-size: larger; */
+}
+.do{
+
+}
+.nav{
+    font-size: larger;
+    font-weight: bold;
+}
+.habib{
+     background-image: url(../images/soko-baby-weaning.png); 
+    background-size: cover;
+}
+
+
+.mission{
+    background-color: rgba(255, 255, 255, 0.456);
+    width: 50%;
+    height: 50%;
+    font-size: larger;
+    padding-right: 20px;
+    padding: 50px;
+    text-align: center;
+}
+.what{
+    display: flex;
+    padding-right: 20px;
+    padding: 50px;
+}
