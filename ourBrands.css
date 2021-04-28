@@ -2,8 +2,8 @@
     display: none;
     cursor: pointer;
 }
-#title{
-    padding-top:7em;
+#title h1, p{
+    padding-top:3em;
 }
 span{
     cursor: pointer;
@@ -46,6 +46,7 @@ span:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 .landing-image h1{
     padding: 5em 0 0 0;
@@ -55,8 +56,25 @@ span:hover{
     font-size: 40px;
 
 }
+#title{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url("./images/photo-1501112525013-8f623674ceef.jpeg");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 #contact-us{
     padding-top: 2em
 }
-    
+#footer1{
+    background-color:black;
+    margin-top:20px;
+}
+.yellowish{
+    color:yellow;
+}
+#yellow{
+    background-color: yellow;
+}
+
  
