@@ -1,0 +1,66 @@
+* {
+    margin: 0%;
+    padding: 0px;
+}
+
+
+.image {
+    background-image: url(../images/pexels-fauxels-3183186.jpg);
+    background-size: cover;
+    padding-top: 300px;
+}
+
+.back {
+    margin-top: -250px;
+    font-style: oblique;
+    color: white;
+    font-weight: unset;
+    margin-left: 70px;
+    font-size: large;
+}
+
+.get {
+    text-align: center;
+    margin-left: -500px;
+    margin-top: 50px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#sach {
+    float: right;
+    margin-left: 220px;
+}
+
+.touch {
+    margin-left: 500px;
+    box-sizing: content-box;
+}
+
+#content {
+    font-family: "Luna";
+}
+
+#button {
+    background-color: black;
+}
+
+#button:hover {
+    color: black;
+    background-color: yellow;
+}
+
+.contact {
+    background-color: #221f1f;
+    margin-left: 300px;
+}
+.media{
+    background-color: yellow;
+    padding: 20px;
+}
+.social{
+    margin-left: 300px;
+}
+.copy{
+    margin-left: 150px;
+}
