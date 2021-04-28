@@ -1,0 +1,29 @@
+.soko1,.amaze1,.cil1,.pearl1,.raene1,.yola1{
+    display: none;
+    cursor: pointer;
+}
+
+.background-image{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url("./images/capwell\ products.jpg");
+    background-position: center;
+
+}
+#title{
+    padding-top:7em;
+}
+span{
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-weight: italic;
+    font-size: 20px;
+}
+span:hover{
+    color: #DBC250;
+    border: 1px solid white;
+}
+
+    
+ 
