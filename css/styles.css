@@ -15,6 +15,7 @@ ul{
     display: inline;
     font-size: larger;
     font-weight: bold;
+    color: white;
 }
 .work1{
     border-radius: 10px;
@@ -24,6 +25,12 @@ h3{
     font-size: large;
     font-weight: bold;
     font-style: inherit;    
+}
+.header{
+    background-color: white;
+}
+.mto{
+    background-color: yellow;
 }
 .logo{
     text-align: center;
@@ -80,14 +87,16 @@ background-size: cover;
       max-width: 100%;
       max-height: 100%;
     }
-    .portfolio {
+    #portfolio {
       text-align: center;
       /* padding-top:40px; */
       font-family: monospace;
       /* padding: 250px; */
-      color: black;
-      font-size: xx-large;
-      font-family: fantasy;
+      display: flex;
+      margin-left: 50px;
+      padding: 20px;
+    }
+      
       
 
     }
@@ -103,7 +112,7 @@ background-size: cover;
         font-family: monospace;
         glyph-orientation-horizontal: initial;
     }
-#work1:hover{
+
 
 }
     
@@ -121,6 +130,8 @@ background-size: cover;
          float: right;
          font-size: larger;
          font-weight: bold;
+         color:white;
+         background-color: white; 
       }
       #abt,#bra,#bus,#con{
           margin: 20px;
@@ -183,15 +194,17 @@ h4{
 }
 .layout{
     text-align: center;
-   height: 30%;
-   width: 50%;
+    height: 20%;
+    width: 50%;
     margin-left:290px; 
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../image/raback.jpg);
-   padding: 20px;
-   color: black;
-   background-color:rgba(255, 255, 255, 0.456);
+    background-image: url(../image/ba.webp);
+    padding: 20px;
+    color: black;
+    font-size: 17px;
+    background-color: ;
+    font-weight: bolder;
 
 }
 .noma{
@@ -221,11 +234,13 @@ h4{
 }
 .we{
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.456);
     height: 80%;
     width: 80%;
     background-image: url(../image/pexels-fauxels-3184431.jpg);
     opacity: 2;
+    color: white;  
+    font-weight: bolder;  
+    font-size: larger;
 }
 .do{
     height: 100%;
@@ -234,7 +249,9 @@ h4{
     min-height: min-content;
 }
 .pinki{
-    background-color: khaki;
+    background-image: url(../image/ame.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 ul{
     font-weight: bolder;
@@ -242,8 +259,9 @@ ul{
 }
 .what-we-do{
      display: flex; 
-    padding: 30px;
+     padding: 30px;
     text-align: center;
+    font-style:white  ;
     
 }
 /* .halima{
@@ -283,10 +301,11 @@ ul{
     height: 30%;
 }
 
-.nav{
+/* .nav{
     font-size: larger;
     font-weight: bold;
-}
+    color: white;
+} */
 .habib{
      background-image: url(..); 
 }
@@ -310,7 +329,7 @@ ul{
     opacity: 1;
 }
 .blue{
-    background-image: url(../image/ba.webp);
+    background-image: url(../image/raback.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
