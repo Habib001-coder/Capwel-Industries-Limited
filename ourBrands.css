@@ -30,7 +30,7 @@ span:hover{
 }
 #submit{
     background-color: black;
-    color: yellow;
+    color:chartreuse;
     border-radius: 5px;
     padding: 10px 30px 10px 30px;
     box-shadow: 1px solid;
@@ -64,14 +64,18 @@ span:hover{
     background-position: center;
 }
 #contact-us{
-    padding-top: 2em
+     padding-top: 2em 
 }
 #footer1{
     background-color:black;
     margin-top:20px;
 }
 .yellowish{
-    color:yellow;
+    /* color:yellow; */
+}
+#message{
+    height: 150px;
+    text-align: start;
 }
 #yellow{
     background-color: yellow;
