@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    padding-top: 100px;
 }
 .conte{
     text-align: center;
@@ -13,9 +14,17 @@ ul{
     text-align: right;
     flex-direction: column;
     display: inline;
-    font-size: larger;
+    font-size: large;
     font-weight: bold;
     color: white;
+
+}
+#footer1{
+    background-color: black;
+    background-size: cover;
+}
+#yellow{
+    background-color: yellow;
 }
 .work1{
     border-radius: 10px;
@@ -85,7 +94,7 @@ background-size: cover;
       } 
     .col-md-3 img{
       max-width: 100%;
-      max-height: 100%;
+      max-height: 1000px;
     }
     #portfolio {
       text-align: center;
@@ -93,8 +102,9 @@ background-size: cover;
       font-family: monospace;
       /* padding: 250px; */
       display: flex;
-      margin-left: 50px;
-      padding: 20px;
+      margin: 00px;
+      padding: 5px;
+      border-radius: 30px;
     }
       
       
@@ -102,7 +112,7 @@ background-size: cover;
     }
     .row{
         display: flex;
-        padding: 30px;
+        padding: 3000px;
         
     }
     .conte{
